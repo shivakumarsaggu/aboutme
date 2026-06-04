@@ -1,0 +1,20 @@
+
+body{margin:0;font-family:Inter,sans-serif;background:#030712;color:#f8fafc}
+nav{display:flex;justify-content:space-between;padding:20px 8%;position:sticky;top:0;background:#030712}
+nav ul{display:flex;gap:20px;list-style:none}
+nav a{color:white;text-decoration:none}
+.hero{display:flex;align-items:center;justify-content:space-between;padding:80px 8%;gap:40px}
+.hero-text{max-width:700px}
+.pill{color:#38bdf8}
+h1{font-size:64px;line-height:1.1}
+.buttons a{padding:12px 20px;border-radius:10px;text-decoration:none;margin-right:10px}
+.primary{background:#38bdf8;color:black}
+.secondary{border:1px solid #334155;color:white}
+.hero-image img{width:380px;border-radius:20px;border:2px solid #38bdf8}
+.metrics{display:grid;grid-template-columns:repeat(4,1fr);padding:30px 8%;gap:20px}
+.metrics div,.card{background:#111827;padding:25px;border-radius:16px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+section{padding:60px 8%}
+.timeline{background:#111827;padding:25px;border-radius:16px}
+footer{text-align:center;padding:30px;border-top:1px solid #1f2937}
+@media(max-width:900px){.hero{flex-direction:column}h1{font-size:42px}.metrics{grid-template-columns:1fr 1fr}}
