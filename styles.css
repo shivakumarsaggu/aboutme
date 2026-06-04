@@ -1,0 +1,12 @@
+
+body{margin:0;font-family:Inter,Arial,sans-serif;background:#080d18;color:white}
+.hero{display:flex;justify-content:space-between;align-items:center;padding:80px 10%;min-height:80vh}
+.badge{color:#66ccff}
+h1{font-size:4rem;margin:10px 0}
+h2{color:#8ab4ff}
+.tags span,.card{border:1px solid #2b3a55;padding:10px 15px;border-radius:12px}
+.tags{display:flex;gap:10px;flex-wrap:wrap}
+.photo img{max-width:400px;border-radius:20px}
+section{padding:50px 10%}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#111827}
